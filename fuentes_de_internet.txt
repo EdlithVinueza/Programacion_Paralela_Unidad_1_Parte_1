@@ -1,0 +1,12 @@
+Pagina de la letra:
+https://www.freefontspro.com/?customPreviewText=Arial&customPreviewTextColour=&submitPreviewSettings=update
+
+Nota: la letra la debe poner dentro del Debug con el archivo exe y externamente tambien 
+
+Sfml simple and fast multimedia library
+https://www.sfml-dev.org/
+
+Ejemplo de sfml
+https://www.sfml-dev.org/documentation/3.0.2/
+
+

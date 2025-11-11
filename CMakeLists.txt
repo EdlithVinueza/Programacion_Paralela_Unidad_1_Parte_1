@@ -3,6 +3,8 @@
 # Este archivo le dice a CMake cómo construir el proyecto.
 # --------------------------------------------
 
+# Nota: Cada ves que se modifique este archivo, dar a Delete Cache y volver a configurar el proyecto.
+
 # Versión mínima requerida de CMake
 cmake_minimum_required(VERSION 3.16)
 
@@ -15,6 +17,10 @@ project(FractalJulia)
 # o en vcpkg. 'CONFIG REQUIRED' indica que debe existir.
 find_package(fmt CONFIG REQUIRED)
 
+# Busca e importa la librería 'SFML' con sus componentes.
+# Aquí se incluyen los módulos que el programa necesita:
+# Network, Graphics, Window, Audio y System.
+find_package(SFML COMPONENTS Network Graphics Window Audio System CONFIG REQUIRED)
 
 # Crea un ejecutable llamado "fractal_julia"
 # A partir del archivo fuente main.cpp.
@@ -23,4 +29,6 @@ add_executable(fractal_julia main.cpp)
 # Enlaza las librerías externas al ejecutable.
 # 'target_link_libraries' conecta el ejecutable con las
 # dependencias requeridas para compilar y ejecutar correctamente.
-target_link_libraries(fractal_julia PRIVATE fmt::fmt)
+target_link_libraries(fractal_julia PRIVATE 
+    fmt::fmt
+    SFML::Network SFML::Graphics SFML::Window SFML::Audio SFML::System)

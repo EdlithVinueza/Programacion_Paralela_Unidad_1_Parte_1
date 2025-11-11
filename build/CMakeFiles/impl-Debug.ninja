@@ -60,10 +60,10 @@ build CMakeFiles/fractal_julia.dir/Debug/main.cpp.obj: CXX_COMPILER__fractal_jul
 #############################################
 # Link the executable Debug\fractal_julia.exe
 
-build Debug/fractal_julia.exe: CXX_EXECUTABLE_LINKER__fractal_julia_Debug CMakeFiles/fractal_julia.dir/Debug/main.cpp.obj | C$:/tools/vcpkg/installed/x64-mingw-dynamic/debug/lib/libfmtd.dll.a
+build Debug/fractal_julia.exe: CXX_EXECUTABLE_LINKER__fractal_julia_Debug CMakeFiles/fractal_julia.dir/Debug/main.cpp.obj | C$:/tools/vcpkg/installed/x64-mingw-dynamic/debug/lib/libfmtd.dll.a C$:/tools/vcpkg/installed/x64-mingw-dynamic/debug/lib/libsfml-network-d.a C$:/tools/vcpkg/installed/x64-mingw-dynamic/debug/lib/libsfml-graphics-d.a C$:/tools/vcpkg/installed/x64-mingw-dynamic/debug/lib/libsfml-window-d.a C$:/tools/vcpkg/installed/x64-mingw-dynamic/debug/lib/libsfml-audio-d.a C$:/tools/vcpkg/installed/x64-mingw-dynamic/debug/lib/libsfml-system-d.a
   CONFIG = Debug
   FLAGS = -g
-  LINK_LIBRARIES = C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/lib/libfmtd.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/lib/libfmtd.dll.a  C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/lib/libsfml-network-d.a  C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/lib/libsfml-graphics-d.a  C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/lib/libsfml-window-d.a  C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/lib/libsfml-audio-d.a  C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/lib/libsfml-system-d.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\fractal_julia.dir\Debug
   POST_BUILD = C:\Windows\system32\cmd.exe /C "cd /D C:\tools\01-factal-julia\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/tools/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/tools/01-factal-julia/build/Debug/fractal_julia.exe -installedDir C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/bin -OutVariable out"
   PRE_LINK = cd .

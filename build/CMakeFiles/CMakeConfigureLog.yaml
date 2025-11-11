@@ -5,7 +5,7 @@ events:
     kind: "message-v1"
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       The system is: Windows - 6.2.9200 - AMD64
   -
@@ -16,7 +16,7 @@ events:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -57,7 +57,7 @@ events:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler: C:/tools/mingw64/bin/gcc.exe 
@@ -78,7 +78,7 @@ events:
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "program"
     variable: "CMAKE_AR"
     description: "Path to a program."
@@ -231,7 +231,7 @@ events:
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "program"
     variable: "CMAKE_RANLIB"
     description: "Path to a program."
@@ -384,7 +384,7 @@ events:
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "program"
     variable: "CMAKE_STRIP"
     description: "Path to a program."
@@ -537,7 +537,7 @@ events:
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "program"
     variable: "CMAKE_LINKER"
     description: "Path to a program."
@@ -690,7 +690,7 @@ events:
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "program"
     variable: "CMAKE_NM"
     description: "Path to a program."
@@ -843,7 +843,7 @@ events:
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "program"
     variable: "CMAKE_OBJDUMP"
     description: "Path to a program."
@@ -996,7 +996,7 @@ events:
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "program"
     variable: "CMAKE_OBJCOPY"
     description: "Path to a program."
@@ -1149,7 +1149,7 @@ events:
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "program"
     variable: "CMAKE_READELF"
     description: "Path to a program."
@@ -1302,7 +1302,7 @@ events:
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "program"
     variable: "CMAKE_DLLTOOL"
     description: "Path to a program."
@@ -1455,7 +1455,7 @@ events:
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "program"
     variable: "CMAKE_ADDR2LINE"
     description: "Path to a program."
@@ -1608,7 +1608,7 @@ events:
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "program"
     variable: "CMAKE_TAPI"
     description: "Path to a program."
@@ -1796,7 +1796,7 @@ events:
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "program"
     variable: "CMAKE_C_COMPILER_AR"
     description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
@@ -2276,7 +2276,7 @@ events:
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "program"
     variable: "CMAKE_C_COMPILER_RANLIB"
     description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
@@ -2759,7 +2759,7 @@ events:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -2800,7 +2800,7 @@ events:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler: C:/tools/mingw64/bin/g++.exe 
@@ -2821,7 +2821,7 @@ events:
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_AR"
     description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
@@ -3301,7 +3301,7 @@ events:
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_RANLIB"
     description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
@@ -3783,7 +3783,7 @@ events:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/Platform/Windows-GNU-C.cmake:2 (__windows_compiler_gnu)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     mode: "program"
     variable: "CMAKE_RC_COMPILER"
     description: "RC compiler"
@@ -4186,12 +4186,12 @@ events:
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/tools/01-factal-julia/build/CMakeFiles/CMakeScratch/TryCompile-22j9id"
-      binary: "C:/tools/01-factal-julia/build/CMakeFiles/CMakeScratch/TryCompile-22j9id"
+      source: "C:/tools/01-factal-julia/build/CMakeFiles/CMakeScratch/TryCompile-sfr5zm"
+      binary: "C:/tools/01-factal-julia/build/CMakeFiles/CMakeScratch/TryCompile-sfr5zm"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -4204,10 +4204,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/tools/01-factal-julia/build/CMakeFiles/CMakeScratch/TryCompile-22j9id'
+        Change Dir: 'C:/tools/01-factal-julia/build/CMakeFiles/CMakeScratch/TryCompile-sfr5zm'
         
-        Run Build Command(s): C:/tools/mingw64/bin/ninja.exe -v cmTC_25cc4
-        [1/2] C:\\tools\\mingw64\\bin\\gcc.exe -DCMAKE_INTDIR=\\"Debug\\"  -g   -v -o CMakeFiles/cmTC_25cc4.dir/Debug/CMakeCCompilerABI.c.obj -c C:/tools/mingw64/share/cmake-4.1/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): C:/tools/mingw64/bin/ninja.exe -v cmTC_cff68
+        [1/2] C:\\tools\\mingw64\\bin\\gcc.exe -DCMAKE_INTDIR=\\"Debug\\"  -g   -v -o CMakeFiles/cmTC_cff68.dir/Debug/CMakeCCompilerABI.c.obj -c C:/tools/mingw64/share/cmake-4.1/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=C:\\tools\\mingw64\\bin\\gcc.exe
         OFFLOAD_TARGET_NAMES=nvptx-none
@@ -4216,8 +4216,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3) 
-        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_25cc4.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_25cc4.dir/Debug/'
-         C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT -D CMAKE_INTDIR="Debug" C:/tools/mingw64/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_25cc4.dir/Debug/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -g -version -o C:\\Users\\edlit\\AppData\\Local\\Temp\\ccg5GQk5.s
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_cff68.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cff68.dir/Debug/'
+         C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT -D CMAKE_INTDIR="Debug" C:/tools/mingw64/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_cff68.dir/Debug/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -g -version -o C:\\Users\\edlit\\AppData\\Local\\Temp\\ccbf9xwQ.s
         GNU C23 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3) version 15.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -4236,13 +4236,13 @@ events:
          C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: ca70cde86c34679ec4b1235eab217851
-        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_25cc4.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_25cc4.dir/Debug/'
-         C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v --gdwarf-5 -o CMakeFiles/cmTC_25cc4.dir/Debug/CMakeCCompilerABI.c.obj C:\\Users\\edlit\\AppData\\Local\\Temp\\ccg5GQk5.s
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_cff68.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cff68.dir/Debug/'
+         C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v --gdwarf-5 -o CMakeFiles/cmTC_cff68.dir/Debug/CMakeCCompilerABI.c.obj C:\\Users\\edlit\\AppData\\Local\\Temp\\ccbf9xwQ.s
         GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r3) 2.45
         COMPILER_PATH=C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/tools/mingw64/bin/../libexec/gcc/;C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/tools/mingw64/bin/../lib/gcc/;C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_25cc4.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_25cc4.dir/Debug/CMakeCCompilerABI.c.'
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\tools\\mingw64\\bin\\gcc.exe -g -v -Wl,-v CMakeFiles/cmTC_25cc4.dir/Debug/CMakeCCompilerABI.c.obj -o Debug\\cmTC_25cc4.exe -Wl,--out-implib,Debug\\libcmTC_25cc4.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_cff68.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cff68.dir/Debug/CMakeCCompilerABI.c.'
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\tools\\mingw64\\bin\\gcc.exe -g -v -Wl,-v CMakeFiles/cmTC_cff68.dir/Debug/CMakeCCompilerABI.c.obj -o Debug\\cmTC_cff68.exe -Wl,--out-implib,Debug\\libcmTC_cff68.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\tools\\mingw64\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
@@ -4254,12 +4254,12 @@ events:
         gcc version 15.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3) 
         COMPILER_PATH=C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/tools/mingw64/bin/../libexec/gcc/;C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/tools/mingw64/bin/../lib/gcc/;C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-g' '-v' '-o' 'Debug\\cmTC_25cc4.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'Debug\\cmTC_25cc4.'
-         C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\edlit\\AppData\\Local\\Temp\\cco5u0ei.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o Debug\\cmTC_25cc4.exe C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/tools/mingw64/bin/../lib/gcc -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_25cc4.dir/Debug/CMakeCCompilerABI.c.obj --out-implib Debug\\libcmTC_25cc4.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-g' '-v' '-o' 'Debug\\cmTC_cff68.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'Debug\\cmTC_cff68.'
+         C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\edlit\\AppData\\Local\\Temp\\ccPRQB95.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o Debug\\cmTC_cff68.exe C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/tools/mingw64/bin/../lib/gcc -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_cff68.dir/Debug/CMakeCCompilerABI.c.obj --out-implib Debug\\libcmTC_cff68.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         collect2 version 15.2.0
-        C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\edlit\\AppData\\Local\\Temp\\cco5u0ei.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o Debug\\cmTC_25cc4.exe C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/tools/mingw64/bin/../lib/gcc -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_25cc4.dir/Debug/CMakeCCompilerABI.c.obj --out-implib Debug\\libcmTC_25cc4.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\edlit\\AppData\\Local\\Temp\\ccPRQB95.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o Debug\\cmTC_cff68.exe C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/tools/mingw64/bin/../lib/gcc -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_cff68.dir/Debug/CMakeCCompilerABI.c.obj --out-implib Debug\\libcmTC_cff68.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r3) 2.45
-        COLLECT_GCC_OPTIONS='-g' '-v' '-o' 'Debug\\cmTC_25cc4.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'Debug\\cmTC_25cc4.'
+        COLLECT_GCC_OPTIONS='-g' '-v' '-o' 'Debug\\cmTC_cff68.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'Debug\\cmTC_cff68.'
         
       exitCode: 0
   -
@@ -4267,7 +4267,7 @@ events:
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
         found start of include info
@@ -4289,15 +4289,15 @@ events:
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/tools/01-factal-julia/build/CMakeFiles/CMakeScratch/TryCompile-22j9id']
+        ignore line: [Change Dir: 'C:/tools/01-factal-julia/build/CMakeFiles/CMakeScratch/TryCompile-sfr5zm']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/tools/mingw64/bin/ninja.exe -v cmTC_25cc4]
-        ignore line: [[1/2] C:\\tools\\mingw64\\bin\\gcc.exe -DCMAKE_INTDIR=\\"Debug\\"  -g   -v -o CMakeFiles/cmTC_25cc4.dir/Debug/CMakeCCompilerABI.c.obj -c C:/tools/mingw64/share/cmake-4.1/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): C:/tools/mingw64/bin/ninja.exe -v cmTC_cff68]
+        ignore line: [[1/2] C:\\tools\\mingw64\\bin\\gcc.exe -DCMAKE_INTDIR=\\"Debug\\"  -g   -v -o CMakeFiles/cmTC_cff68.dir/Debug/CMakeCCompilerABI.c.obj -c C:/tools/mingw64/share/cmake-4.1/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\tools\\mingw64\\bin\\gcc.exe]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -4306,8 +4306,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r3) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_25cc4.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_25cc4.dir/Debug/']
-        ignore line: [ C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT -D CMAKE_INTDIR="Debug" C:/tools/mingw64/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_25cc4.dir/Debug/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -g -version -o C:\\Users\\edlit\\AppData\\Local\\Temp\\ccg5GQk5.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_cff68.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cff68.dir/Debug/']
+        ignore line: [ C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT -D CMAKE_INTDIR="Debug" C:/tools/mingw64/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_cff68.dir/Debug/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -g -version -o C:\\Users\\edlit\\AppData\\Local\\Temp\\ccbf9xwQ.s]
         ignore line: [GNU C23 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r3) version 15.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -4326,8 +4326,8 @@ events:
         ignore line: [ C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: ca70cde86c34679ec4b1235eab217851]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_25cc4.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_25cc4.dir/Debug/']
-        ignore line: [ C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v --gdwarf-5 -o CMakeFiles/cmTC_25cc4.dir/Debug/CMakeCCompilerABI.c.obj C:\\Users\\edlit\\AppData\\Local\\Temp\\ccg5GQk5.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_cff68.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cff68.dir/Debug/']
+        ignore line: [ C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v --gdwarf-5 -o CMakeFiles/cmTC_cff68.dir/Debug/CMakeCCompilerABI.c.obj C:\\Users\\edlit\\AppData\\Local\\Temp\\ccbf9xwQ.s]
         ignore line: [GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders  r3) 2.45]
         ignore line: [COMPILER_PATH=C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
         ignore line: [C:/tools/mingw64/bin/../libexec/gcc/]
@@ -4338,8 +4338,8 @@ events:
         ignore line: [C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_25cc4.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_25cc4.dir/Debug/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\tools\\mingw64\\bin\\gcc.exe -g -v -Wl -v CMakeFiles/cmTC_25cc4.dir/Debug/CMakeCCompilerABI.c.obj -o Debug\\cmTC_25cc4.exe -Wl --out-implib Debug\\libcmTC_25cc4.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_cff68.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cff68.dir/Debug/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\tools\\mingw64\\bin\\gcc.exe -g -v -Wl -v CMakeFiles/cmTC_cff68.dir/Debug/CMakeCCompilerABI.c.obj -o Debug\\cmTC_cff68.exe -Wl --out-implib Debug\\libcmTC_cff68.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\tools\\mingw64\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
@@ -4358,13 +4358,13 @@ events:
         ignore line: [C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-g' '-v' '-o' 'Debug\\cmTC_25cc4.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'Debug\\cmTC_25cc4.']
-        link line: [ C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\edlit\\AppData\\Local\\Temp\\cco5u0ei.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o Debug\\cmTC_25cc4.exe C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/tools/mingw64/bin/../lib/gcc -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_25cc4.dir/Debug/CMakeCCompilerABI.c.obj --out-implib Debug\\libcmTC_25cc4.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-g' '-v' '-o' 'Debug\\cmTC_cff68.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'Debug\\cmTC_cff68.']
+        link line: [ C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\edlit\\AppData\\Local\\Temp\\ccPRQB95.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o Debug\\cmTC_cff68.exe C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/tools/mingw64/bin/../lib/gcc -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_cff68.dir/Debug/CMakeCCompilerABI.c.obj --out-implib Debug\\libcmTC_cff68.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
           arg [C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\edlit\\AppData\\Local\\Temp\\cco5u0ei.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\edlit\\AppData\\Local\\Temp\\ccPRQB95.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -4386,7 +4386,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [Debug\\cmTC_25cc4.exe] ==> ignore
+          arg [Debug\\cmTC_cff68.exe] ==> ignore
           arg [C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
           arg [-LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
@@ -4396,9 +4396,9 @@ events:
           arg [-LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_25cc4.dir/Debug/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_cff68.dir/Debug/CMakeCCompilerABI.c.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [Debug\\libcmTC_25cc4.dll.a] ==> ignore
+          arg [Debug\\libcmTC_cff68.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -4447,7 +4447,7 @@ events:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Running the C compiler's linker: "Configured with: ../configure --prefix=/R/winlibs_staging_ucrt64/inst_gcc-15.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_ucrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --enable-libgdiagnostics --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_ucrt64/gcc-15.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_ucrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_ucrt/custombuilt64/share/binutils/bin/ld.exe" "-v"
       
@@ -4457,7 +4457,7 @@ events:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Running the C compiler's linker: "Configured with: ../configure --prefix=/R/winlibs_staging_ucrt64/inst_gcc-15.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_ucrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --enable-libgdiagnostics --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_ucrt64/gcc-15.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_ucrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_ucrt/custombuilt64/share/binutils/bin/ld.exe" "-V"
       
@@ -4467,7 +4467,7 @@ events:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Running the C compiler's linker: "Configured with: ../configure --prefix=/R/winlibs_staging_ucrt64/inst_gcc-15.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_ucrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --enable-libgdiagnostics --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_ucrt64/gcc-15.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_ucrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_ucrt/custombuilt64/share/binutils/bin/ld.exe" "--version"
       
@@ -4476,12 +4476,12 @@ events:
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/tools/01-factal-julia/build/CMakeFiles/CMakeScratch/TryCompile-5yrqjj"
-      binary: "C:/tools/01-factal-julia/build/CMakeFiles/CMakeScratch/TryCompile-5yrqjj"
+      source: "C:/tools/01-factal-julia/build/CMakeFiles/CMakeScratch/TryCompile-oqhyer"
+      binary: "C:/tools/01-factal-julia/build/CMakeFiles/CMakeScratch/TryCompile-oqhyer"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -4495,10 +4495,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/tools/01-factal-julia/build/CMakeFiles/CMakeScratch/TryCompile-5yrqjj'
+        Change Dir: 'C:/tools/01-factal-julia/build/CMakeFiles/CMakeScratch/TryCompile-oqhyer'
         
-        Run Build Command(s): C:/tools/mingw64/bin/ninja.exe -v cmTC_7029d
-        [1/2] C:\\tools\\mingw64\\bin\\g++.exe -DCMAKE_INTDIR=\\"Debug\\"  -g   -v -o CMakeFiles/cmTC_7029d.dir/Debug/CMakeCXXCompilerABI.cpp.obj -c C:/tools/mingw64/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): C:/tools/mingw64/bin/ninja.exe -v cmTC_f17af
+        [1/2] C:\\tools\\mingw64\\bin\\g++.exe -DCMAKE_INTDIR=\\"Debug\\"  -g   -v -o CMakeFiles/cmTC_f17af.dir/Debug/CMakeCXXCompilerABI.cpp.obj -c C:/tools/mingw64/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=C:\\tools\\mingw64\\bin\\g++.exe
         OFFLOAD_TARGET_NAMES=nvptx-none
@@ -4507,8 +4507,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3) 
-        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_7029d.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7029d.dir/Debug/'
-         C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT -D CMAKE_INTDIR="Debug" C:/tools/mingw64/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_7029d.dir/Debug/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -g -version -o C:\\Users\\edlit\\AppData\\Local\\Temp\\cczEGT2M.s
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_f17af.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f17af.dir/Debug/'
+         C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT -D CMAKE_INTDIR="Debug" C:/tools/mingw64/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f17af.dir/Debug/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -g -version -o C:\\Users\\edlit\\AppData\\Local\\Temp\\ccUBUrXC.s
         GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3) version 15.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -4533,13 +4533,13 @@ events:
          C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: fab19ce240fdc8cb44132d0f6268a841
-        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_7029d.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7029d.dir/Debug/'
-         C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v --gdwarf-5 -o CMakeFiles/cmTC_7029d.dir/Debug/CMakeCXXCompilerABI.cpp.obj C:\\Users\\edlit\\AppData\\Local\\Temp\\cczEGT2M.s
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_f17af.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f17af.dir/Debug/'
+         C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v --gdwarf-5 -o CMakeFiles/cmTC_f17af.dir/Debug/CMakeCXXCompilerABI.cpp.obj C:\\Users\\edlit\\AppData\\Local\\Temp\\ccUBUrXC.s
         GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r3) 2.45
         COMPILER_PATH=C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/tools/mingw64/bin/../libexec/gcc/;C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/tools/mingw64/bin/../lib/gcc/;C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_7029d.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7029d.dir/Debug/CMakeCXXCompilerABI.cpp.'
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\tools\\mingw64\\bin\\g++.exe -g -v -Wl,-v CMakeFiles/cmTC_7029d.dir/Debug/CMakeCXXCompilerABI.cpp.obj -o Debug\\cmTC_7029d.exe -Wl,--out-implib,Debug\\libcmTC_7029d.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_f17af.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f17af.dir/Debug/CMakeCXXCompilerABI.cpp.'
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\tools\\mingw64\\bin\\g++.exe -g -v -Wl,-v CMakeFiles/cmTC_f17af.dir/Debug/CMakeCXXCompilerABI.cpp.obj -o Debug\\cmTC_f17af.exe -Wl,--out-implib,Debug\\libcmTC_f17af.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\tools\\mingw64\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
@@ -4551,12 +4551,12 @@ events:
         gcc version 15.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3) 
         COMPILER_PATH=C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/tools/mingw64/bin/../libexec/gcc/;C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/tools/mingw64/bin/../lib/gcc/;C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-g' '-v' '-o' 'Debug\\cmTC_7029d.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'Debug\\cmTC_7029d.'
-         C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\edlit\\AppData\\Local\\Temp\\cc5CThzY.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o Debug\\cmTC_7029d.exe C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/tools/mingw64/bin/../lib/gcc -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_7029d.dir/Debug/CMakeCXXCompilerABI.cpp.obj --out-implib Debug\\libcmTC_7029d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-g' '-v' '-o' 'Debug\\cmTC_f17af.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'Debug\\cmTC_f17af.'
+         C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\edlit\\AppData\\Local\\Temp\\ccQFhghP.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o Debug\\cmTC_f17af.exe C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/tools/mingw64/bin/../lib/gcc -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_f17af.dir/Debug/CMakeCXXCompilerABI.cpp.obj --out-implib Debug\\libcmTC_f17af.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         collect2 version 15.2.0
-        C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\edlit\\AppData\\Local\\Temp\\cc5CThzY.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o Debug\\cmTC_7029d.exe C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/tools/mingw64/bin/../lib/gcc -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_7029d.dir/Debug/CMakeCXXCompilerABI.cpp.obj --out-implib Debug\\libcmTC_7029d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\edlit\\AppData\\Local\\Temp\\ccQFhghP.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o Debug\\cmTC_f17af.exe C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/tools/mingw64/bin/../lib/gcc -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_f17af.dir/Debug/CMakeCXXCompilerABI.cpp.obj --out-implib Debug\\libcmTC_f17af.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r3) 2.45
-        COLLECT_GCC_OPTIONS='-g' '-v' '-o' 'Debug\\cmTC_7029d.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'Debug\\cmTC_7029d.'
+        COLLECT_GCC_OPTIONS='-g' '-v' '-o' 'Debug\\cmTC_f17af.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'Debug\\cmTC_f17af.'
         
       exitCode: 0
   -
@@ -4564,7 +4564,7 @@ events:
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
         found start of include info
@@ -4592,15 +4592,15 @@ events:
     backtrace:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/tools/01-factal-julia/build/CMakeFiles/CMakeScratch/TryCompile-5yrqjj']
+        ignore line: [Change Dir: 'C:/tools/01-factal-julia/build/CMakeFiles/CMakeScratch/TryCompile-oqhyer']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/tools/mingw64/bin/ninja.exe -v cmTC_7029d]
-        ignore line: [[1/2] C:\\tools\\mingw64\\bin\\g++.exe -DCMAKE_INTDIR=\\"Debug\\"  -g   -v -o CMakeFiles/cmTC_7029d.dir/Debug/CMakeCXXCompilerABI.cpp.obj -c C:/tools/mingw64/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): C:/tools/mingw64/bin/ninja.exe -v cmTC_f17af]
+        ignore line: [[1/2] C:\\tools\\mingw64\\bin\\g++.exe -DCMAKE_INTDIR=\\"Debug\\"  -g   -v -o CMakeFiles/cmTC_f17af.dir/Debug/CMakeCXXCompilerABI.cpp.obj -c C:/tools/mingw64/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\tools\\mingw64\\bin\\g++.exe]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -4609,8 +4609,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r3) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_7029d.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7029d.dir/Debug/']
-        ignore line: [ C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT -D CMAKE_INTDIR="Debug" C:/tools/mingw64/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_7029d.dir/Debug/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -g -version -o C:\\Users\\edlit\\AppData\\Local\\Temp\\cczEGT2M.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_f17af.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f17af.dir/Debug/']
+        ignore line: [ C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT -D CMAKE_INTDIR="Debug" C:/tools/mingw64/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f17af.dir/Debug/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -g -version -o C:\\Users\\edlit\\AppData\\Local\\Temp\\ccUBUrXC.s]
         ignore line: [GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r3) version 15.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -4635,8 +4635,8 @@ events:
         ignore line: [ C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: fab19ce240fdc8cb44132d0f6268a841]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_7029d.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7029d.dir/Debug/']
-        ignore line: [ C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v --gdwarf-5 -o CMakeFiles/cmTC_7029d.dir/Debug/CMakeCXXCompilerABI.cpp.obj C:\\Users\\edlit\\AppData\\Local\\Temp\\cczEGT2M.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_f17af.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f17af.dir/Debug/']
+        ignore line: [ C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v --gdwarf-5 -o CMakeFiles/cmTC_f17af.dir/Debug/CMakeCXXCompilerABI.cpp.obj C:\\Users\\edlit\\AppData\\Local\\Temp\\ccUBUrXC.s]
         ignore line: [GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders  r3) 2.45]
         ignore line: [COMPILER_PATH=C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
         ignore line: [C:/tools/mingw64/bin/../libexec/gcc/]
@@ -4647,8 +4647,8 @@ events:
         ignore line: [C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_7029d.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7029d.dir/Debug/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\tools\\mingw64\\bin\\g++.exe -g -v -Wl -v CMakeFiles/cmTC_7029d.dir/Debug/CMakeCXXCompilerABI.cpp.obj -o Debug\\cmTC_7029d.exe -Wl --out-implib Debug\\libcmTC_7029d.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_f17af.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f17af.dir/Debug/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\tools\\mingw64\\bin\\g++.exe -g -v -Wl -v CMakeFiles/cmTC_f17af.dir/Debug/CMakeCXXCompilerABI.cpp.obj -o Debug\\cmTC_f17af.exe -Wl --out-implib Debug\\libcmTC_f17af.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\tools\\mingw64\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
@@ -4667,13 +4667,13 @@ events:
         ignore line: [C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-g' '-v' '-o' 'Debug\\cmTC_7029d.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'Debug\\cmTC_7029d.']
-        link line: [ C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\edlit\\AppData\\Local\\Temp\\cc5CThzY.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o Debug\\cmTC_7029d.exe C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/tools/mingw64/bin/../lib/gcc -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_7029d.dir/Debug/CMakeCXXCompilerABI.cpp.obj --out-implib Debug\\libcmTC_7029d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-g' '-v' '-o' 'Debug\\cmTC_f17af.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'Debug\\cmTC_f17af.']
+        link line: [ C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\edlit\\AppData\\Local\\Temp\\ccQFhghP.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o Debug\\cmTC_f17af.exe C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/tools/mingw64/bin/../lib/gcc -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_f17af.dir/Debug/CMakeCXXCompilerABI.cpp.obj --out-implib Debug\\libcmTC_f17af.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
           arg [C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/tools/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\edlit\\AppData\\Local\\Temp\\cc5CThzY.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\edlit\\AppData\\Local\\Temp\\ccQFhghP.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -4695,7 +4695,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [Debug\\cmTC_7029d.exe] ==> ignore
+          arg [Debug\\cmTC_f17af.exe] ==> ignore
           arg [C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
           arg [-LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
@@ -4705,9 +4705,9 @@ events:
           arg [-LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LC:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [C:/tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_7029d.dir/Debug/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_f17af.dir/Debug/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [Debug\\libcmTC_7029d.dll.a] ==> ignore
+          arg [Debug\\libcmTC_f17af.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -4755,7 +4755,7 @@ events:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Running the CXX compiler's linker: "Configured with: ../configure --prefix=/R/winlibs_staging_ucrt64/inst_gcc-15.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_ucrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --enable-libgdiagnostics --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_ucrt64/gcc-15.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_ucrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_ucrt/custombuilt64/share/binutils/bin/ld.exe" "-v"
       
@@ -4765,7 +4765,7 @@ events:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Running the CXX compiler's linker: "Configured with: ../configure --prefix=/R/winlibs_staging_ucrt64/inst_gcc-15.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_ucrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --enable-libgdiagnostics --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_ucrt64/gcc-15.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_ucrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_ucrt/custombuilt64/share/binutils/bin/ld.exe" "-V"
       
@@ -4775,7 +4775,7 @@ events:
       - "C:/tools/mingw64/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "C:/tools/mingw64/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:11 (project)"
+      - "CMakeLists.txt:13 (project)"
     message: |
       Running the CXX compiler's linker: "Configured with: ../configure --prefix=/R/winlibs_staging_ucrt64/inst_gcc-15.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_ucrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --enable-libgdiagnostics --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_ucrt64/gcc-15.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_ucrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_ucrt/custombuilt64/share/binutils/bin/ld.exe" "--version"
       
@@ -4783,7 +4783,7 @@ events:
     kind: "find_package-v1"
     backtrace:
       - "C:/tools/vcpkg/scripts/buildsystems/vcpkg.cmake:904 (_find_package)"
-      - "CMakeLists.txt:16 (find_package)"
+      - "CMakeLists.txt:18 (find_package)"
     name: "fmt"
     configs:
       -
@@ -4874,9 +4874,758 @@ events:
   -
     kind: "find-v1"
     backtrace:
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/share/sfml/SFMLConfig.cmake:98 (find_path)"
+      - "C:/tools/vcpkg/scripts/buildsystems/vcpkg.cmake:904 (_find_package)"
+      - "CMakeLists.txt:23 (find_package)"
+    mode: "path"
+    variable: "SFML_DOC_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "LAST"
+      SearchAppBundle: "LAST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "SFML.tag"
+    candidate_directories:
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/include/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/include/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/include/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/vcpkg/installed/x64-mingw-dynamic/include/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/vcpkg/installed/x64-mingw-dynamic/include/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/vcpkg/installed/x64-mingw-dynamic/include/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/vcpkg/installed/x64-mingw-dynamic/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/vcpkg/installed/x64-mingw-dynamic/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/vcpkg/installed/x64-mingw-dynamic/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Common Files/Oracle/Java/javapath/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Common Files/Oracle/Java/javapath/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/System32/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/System32/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/System32/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/System32/wbem/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/System32/wbem/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/System32/wbem/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/System32/WindowsPowerShell/v1.0/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/System32/WindowsPowerShell/v1.0/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/System32/OpenSSH/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/System32/OpenSSH/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/System32/OpenSSH/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Git/cmd/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Git/cmd/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Git/cmd/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/dotnet/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/dotnet/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/dotnet/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Java/jdk-17/bin/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Java/jdk-17/bin/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Java/jdk-17/bin/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/mingw64/bin/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/mingw64/bin/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/mingw64/bin/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Users/edlit/AppData/Local/Microsoft/WindowsApps/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Users/edlit/AppData/Local/Microsoft/WindowsApps/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Users/edlit/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Users/edlit/AppData/Local/Programs/Microsoft VS Code/bin/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Users/edlit/AppData/Local/Programs/Microsoft VS Code/bin/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Users/edlit/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/include/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/include/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/include/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/include/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/include/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/include/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/mingw64/include/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/mingw64/include/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/mingw64/include/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/mingw64/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/mingw64/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/mingw64/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/FractalJulia/include/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/FractalJulia/include/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/FractalJulia/include/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/FractalJulia/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/FractalJulia/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/FractalJulia/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/vcpkg/installed/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/vcpkg/installed/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/vcpkg/installed/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Users/edlit/Library/Frameworks/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Users/edlit/Library/Frameworks/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Users/edlit/Library/Frameworks/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Library/Frameworks/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Library/Frameworks/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Library/Frameworks/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/usr/local/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/usr/local/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/usr/local/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/usr/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/usr/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/usr/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/sw/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/sw/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/sw/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/opt/local/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/opt/local/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/opt/local/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/opt/csw/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/opt/csw/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/opt/csw/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/opt/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/opt/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/opt/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/include/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/include/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/include/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/include/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/include/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/include/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/Common Files/Oracle/Java/javapath/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/Common Files/Oracle/Java/javapath/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/System32/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/System32/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/System32/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/System32/wbem/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/System32/wbem/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/System32/wbem/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/System32/WindowsPowerShell/v1.0/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/System32/WindowsPowerShell/v1.0/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/System32/OpenSSH/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/System32/OpenSSH/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/System32/OpenSSH/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/Git/cmd/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/Git/cmd/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/Git/cmd/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/dotnet/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/dotnet/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/dotnet/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/Java/jdk-17/bin/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/Java/jdk-17/bin/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/Java/jdk-17/bin/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/tools/mingw64/bin/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/tools/mingw64/bin/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/tools/mingw64/bin/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Users/edlit/AppData/Local/Microsoft/WindowsApps/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Users/edlit/AppData/Local/Microsoft/WindowsApps/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Users/edlit/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Users/edlit/AppData/Local/Programs/Microsoft VS Code/bin/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Users/edlit/AppData/Local/Programs/Microsoft VS Code/bin/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Users/edlit/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/include/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/include/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/include/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/include/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/include/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/include/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/tools/mingw64/include/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/tools/mingw64/include/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/tools/mingw64/include/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/tools/mingw64/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/tools/mingw64/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/tools/mingw64/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/FractalJulia/include/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/FractalJulia/include/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/FractalJulia/include/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/FractalJulia/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/FractalJulia/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/FractalJulia/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/tools/vcpkg/installed/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/tools/vcpkg/installed/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/tools/vcpkg/installed/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Users/edlit/Library/Frameworks/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Users/edlit/Library/Frameworks/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Users/edlit/Library/Frameworks/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Library/Frameworks/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Library/Frameworks/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Library/Frameworks/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/usr/local/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/usr/local/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/usr/local/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/usr/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/usr/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/usr/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/sw/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/sw/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/sw/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/opt/local/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/opt/local/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/opt/local/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/opt/csw/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/opt/csw/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/opt/csw/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/opt/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/opt/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/opt/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/include/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/include/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/include/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/include/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/include/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/include/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/SFML/doc/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/SFML/doc/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/share/doc/SFML/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/SFML/doc/"
+      - "C:/Windows/System32/share/doc/SFML/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/SFML/doc/"
+      - "C:/Windows/share/doc/SFML/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/SFML/doc/"
+      - "C:/Windows/System32/wbem/share/doc/SFML/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/SFML/doc/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/share/doc/SFML/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/SFML/doc/"
+      - "C:/Windows/System32/OpenSSH/share/doc/SFML/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/SFML/doc/"
+      - "C:/Program Files/Git/cmd/share/doc/SFML/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/dotnet/SFML/doc/"
+      - "C:/Program Files/dotnet/share/doc/SFML/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Java/jdk-17/bin/SFML/doc/"
+      - "C:/Program Files/Java/jdk-17/bin/share/doc/SFML/"
+      - "C:/Program Files/Java/jdk-17/bin/"
+      - "C:/tools/mingw64/bin/SFML/doc/"
+      - "C:/tools/mingw64/bin/share/doc/SFML/"
+      - "C:/tools/mingw64/bin/"
+      - "C:/Users/edlit/AppData/Local/Microsoft/WindowsApps/SFML/doc/"
+      - "C:/Users/edlit/AppData/Local/Microsoft/WindowsApps/share/doc/SFML/"
+      - "C:/Users/edlit/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/edlit/AppData/Local/Programs/Microsoft VS Code/bin/SFML/doc/"
+      - "C:/Users/edlit/AppData/Local/Programs/Microsoft VS Code/bin/share/doc/SFML/"
+      - "C:/Users/edlit/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/include/SFML/doc/"
+      - "C:/Program Files/include/share/doc/SFML/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/SFML/doc/"
+      - "C:/Program Files/share/doc/SFML/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/SFML/doc/"
+      - "C:/Program Files (x86)/include/share/doc/SFML/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/SFML/doc/"
+      - "C:/Program Files (x86)/share/doc/SFML/"
+      - "C:/Program Files (x86)/"
+      - "C:/tools/mingw64/include/SFML/doc/"
+      - "C:/tools/mingw64/include/share/doc/SFML/"
+      - "C:/tools/mingw64/include/"
+      - "C:/tools/mingw64/SFML/doc/"
+      - "C:/tools/mingw64/share/doc/SFML/"
+      - "C:/tools/mingw64/"
+      - "C:/Program Files (x86)/FractalJulia/include/SFML/doc/"
+      - "C:/Program Files (x86)/FractalJulia/include/share/doc/SFML/"
+      - "C:/Program Files (x86)/FractalJulia/include/"
+      - "C:/Program Files (x86)/FractalJulia/SFML/doc/"
+      - "C:/Program Files (x86)/FractalJulia/share/doc/SFML/"
+      - "C:/Program Files (x86)/FractalJulia/"
+      - "C:/tools/vcpkg/installed/SFML/doc/"
+      - "C:/tools/vcpkg/installed/share/doc/SFML/"
+      - "C:/tools/vcpkg/installed/"
+      - "C:/Users/edlit/Library/Frameworks/SFML/doc/"
+      - "C:/Users/edlit/Library/Frameworks/share/doc/SFML/"
+      - "C:/Users/edlit/Library/Frameworks/"
+      - "/Library/Frameworks/SFML/doc/"
+      - "/Library/Frameworks/share/doc/SFML/"
+      - "/Library/Frameworks/"
+      - "/usr/local/SFML/doc/"
+      - "/usr/local/share/doc/SFML/"
+      - "/usr/local/"
+      - "/usr/SFML/doc/"
+      - "/usr/share/doc/SFML/"
+      - "/usr/"
+      - "/sw/SFML/doc/"
+      - "/sw/share/doc/SFML/"
+      - "/sw/"
+      - "/opt/local/SFML/doc/"
+      - "/opt/local/share/doc/SFML/"
+      - "/opt/local/"
+      - "/opt/csw/SFML/doc/"
+      - "/opt/csw/share/doc/SFML/"
+      - "/opt/csw/"
+      - "/opt/SFML/doc/"
+      - "/opt/share/doc/SFML/"
+      - "/opt/"
+    searched_directories:
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/include/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/include/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/include/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/vcpkg/installed/x64-mingw-dynamic/include/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/vcpkg/installed/x64-mingw-dynamic/include/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/vcpkg/installed/x64-mingw-dynamic/include/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/vcpkg/installed/x64-mingw-dynamic/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/vcpkg/installed/x64-mingw-dynamic/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/vcpkg/installed/x64-mingw-dynamic/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Common Files/Oracle/Java/javapath/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Common Files/Oracle/Java/javapath/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Common Files/Oracle/Java/javapath/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/System32/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/System32/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/System32/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/System32/wbem/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/System32/wbem/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/System32/wbem/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/System32/WindowsPowerShell/v1.0/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/System32/WindowsPowerShell/v1.0/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/System32/WindowsPowerShell/v1.0/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/System32/OpenSSH/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/System32/OpenSSH/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Windows/System32/OpenSSH/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Git/cmd/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Git/cmd/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Git/cmd/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/dotnet/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/dotnet/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/dotnet/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Java/jdk-17/bin/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Java/jdk-17/bin/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Java/jdk-17/bin/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/mingw64/bin/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/mingw64/bin/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/mingw64/bin/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Users/edlit/AppData/Local/Microsoft/WindowsApps/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Users/edlit/AppData/Local/Microsoft/WindowsApps/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Users/edlit/AppData/Local/Microsoft/WindowsApps/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Users/edlit/AppData/Local/Programs/Microsoft VS Code/bin/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Users/edlit/AppData/Local/Programs/Microsoft VS Code/bin/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Users/edlit/AppData/Local/Programs/Microsoft VS Code/bin/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/include/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/include/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/include/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/include/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/include/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/include/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/mingw64/include/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/mingw64/include/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/mingw64/include/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/mingw64/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/mingw64/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/mingw64/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/FractalJulia/include/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/FractalJulia/include/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/FractalJulia/include/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/FractalJulia/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/FractalJulia/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/FractalJulia/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/vcpkg/installed/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/vcpkg/installed/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/tools/vcpkg/installed/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Users/edlit/Library/Frameworks/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Users/edlit/Library/Frameworks/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Users/edlit/Library/Frameworks/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Library/Frameworks/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Library/Frameworks/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/Library/Frameworks/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/usr/local/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/usr/local/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/usr/local/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/usr/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/usr/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/usr/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/sw/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/sw/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/sw/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/opt/local/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/opt/local/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/opt/local/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/opt/csw/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/opt/csw/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/opt/csw/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/opt/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/opt/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/opt/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/include/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/include/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/include/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/include/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/include/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/include/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/Common Files/Oracle/Java/javapath/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/Common Files/Oracle/Java/javapath/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/Common Files/Oracle/Java/javapath/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/System32/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/System32/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/System32/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/System32/wbem/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/System32/wbem/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/System32/wbem/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/System32/WindowsPowerShell/v1.0/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/System32/WindowsPowerShell/v1.0/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/System32/WindowsPowerShell/v1.0/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/System32/OpenSSH/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/System32/OpenSSH/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Windows/System32/OpenSSH/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/Git/cmd/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/Git/cmd/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/Git/cmd/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/dotnet/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/dotnet/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/dotnet/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/Java/jdk-17/bin/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/Java/jdk-17/bin/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/Java/jdk-17/bin/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/tools/mingw64/bin/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/tools/mingw64/bin/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/tools/mingw64/bin/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Users/edlit/AppData/Local/Microsoft/WindowsApps/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Users/edlit/AppData/Local/Microsoft/WindowsApps/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Users/edlit/AppData/Local/Microsoft/WindowsApps/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Users/edlit/AppData/Local/Programs/Microsoft VS Code/bin/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Users/edlit/AppData/Local/Programs/Microsoft VS Code/bin/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Users/edlit/AppData/Local/Programs/Microsoft VS Code/bin/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/include/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/include/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/include/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/include/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/include/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/include/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/tools/mingw64/include/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/tools/mingw64/include/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/tools/mingw64/include/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/tools/mingw64/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/tools/mingw64/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/tools/mingw64/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/FractalJulia/include/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/FractalJulia/include/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/FractalJulia/include/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/FractalJulia/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/FractalJulia/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/FractalJulia/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/tools/vcpkg/installed/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/tools/vcpkg/installed/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/tools/vcpkg/installed/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Users/edlit/Library/Frameworks/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Users/edlit/Library/Frameworks/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Users/edlit/Library/Frameworks/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Library/Frameworks/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Library/Frameworks/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/Library/Frameworks/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/usr/local/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/usr/local/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/usr/local/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/usr/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/usr/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/usr/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/sw/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/sw/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/sw/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/opt/local/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/opt/local/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/opt/local/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/opt/csw/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/opt/csw/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/opt/csw/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/opt/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/opt/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/opt/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/include/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/include/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/include/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/include/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/include/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/include/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/x64-mingw-dynamic/SFML.tag"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/SFML/doc/SFML.tag"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/SFML.tag"
+      - "C:/Windows/System32/SFML/doc/SFML.tag"
+      - "C:/Windows/System32/share/doc/SFML/SFML.tag"
+      - "C:/Windows/System32/SFML.tag"
+      - "C:/Windows/SFML/doc/SFML.tag"
+      - "C:/Windows/share/doc/SFML/SFML.tag"
+      - "C:/Windows/SFML.tag"
+      - "C:/Windows/System32/wbem/SFML/doc/SFML.tag"
+      - "C:/Windows/System32/wbem/share/doc/SFML/SFML.tag"
+      - "C:/Windows/System32/wbem/SFML.tag"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/SFML/doc/SFML.tag"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/share/doc/SFML/SFML.tag"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/SFML.tag"
+      - "C:/Windows/System32/OpenSSH/SFML/doc/SFML.tag"
+      - "C:/Windows/System32/OpenSSH/share/doc/SFML/SFML.tag"
+      - "C:/Windows/System32/OpenSSH/SFML.tag"
+      - "C:/Program Files/Git/cmd/SFML/doc/SFML.tag"
+      - "C:/Program Files/Git/cmd/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/Git/cmd/SFML.tag"
+      - "C:/Program Files/dotnet/SFML/doc/SFML.tag"
+      - "C:/Program Files/dotnet/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/dotnet/SFML.tag"
+      - "C:/Program Files/Java/jdk-17/bin/SFML/doc/SFML.tag"
+      - "C:/Program Files/Java/jdk-17/bin/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/Java/jdk-17/bin/SFML.tag"
+      - "C:/tools/mingw64/bin/SFML/doc/SFML.tag"
+      - "C:/tools/mingw64/bin/share/doc/SFML/SFML.tag"
+      - "C:/tools/mingw64/bin/SFML.tag"
+      - "C:/Users/edlit/AppData/Local/Microsoft/WindowsApps/SFML/doc/SFML.tag"
+      - "C:/Users/edlit/AppData/Local/Microsoft/WindowsApps/share/doc/SFML/SFML.tag"
+      - "C:/Users/edlit/AppData/Local/Microsoft/WindowsApps/SFML.tag"
+      - "C:/Users/edlit/AppData/Local/Programs/Microsoft VS Code/bin/SFML/doc/SFML.tag"
+      - "C:/Users/edlit/AppData/Local/Programs/Microsoft VS Code/bin/share/doc/SFML/SFML.tag"
+      - "C:/Users/edlit/AppData/Local/Programs/Microsoft VS Code/bin/SFML.tag"
+      - "C:/Program Files/include/SFML/doc/SFML.tag"
+      - "C:/Program Files/include/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/include/SFML.tag"
+      - "C:/Program Files/SFML/doc/SFML.tag"
+      - "C:/Program Files/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/SFML.tag"
+      - "C:/Program Files (x86)/include/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/include/share/doc/SFML/SFML.tag"
+      - "C:/Program Files (x86)/include/SFML.tag"
+      - "C:/Program Files (x86)/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/share/doc/SFML/SFML.tag"
+      - "C:/Program Files (x86)/SFML.tag"
+      - "C:/tools/mingw64/include/SFML/doc/SFML.tag"
+      - "C:/tools/mingw64/include/share/doc/SFML/SFML.tag"
+      - "C:/tools/mingw64/include/SFML.tag"
+      - "C:/tools/mingw64/SFML/doc/SFML.tag"
+      - "C:/tools/mingw64/share/doc/SFML/SFML.tag"
+      - "C:/tools/mingw64/SFML.tag"
+      - "C:/Program Files (x86)/FractalJulia/include/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/FractalJulia/include/share/doc/SFML/SFML.tag"
+      - "C:/Program Files (x86)/FractalJulia/include/SFML.tag"
+      - "C:/Program Files (x86)/FractalJulia/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/FractalJulia/share/doc/SFML/SFML.tag"
+      - "C:/Program Files (x86)/FractalJulia/SFML.tag"
+      - "C:/tools/vcpkg/installed/SFML/doc/SFML.tag"
+      - "C:/tools/vcpkg/installed/share/doc/SFML/SFML.tag"
+      - "C:/tools/vcpkg/installed/SFML.tag"
+      - "C:/Users/edlit/Library/Frameworks/SFML/doc/SFML.tag"
+      - "C:/Users/edlit/Library/Frameworks/share/doc/SFML/SFML.tag"
+      - "C:/Users/edlit/Library/Frameworks/SFML.tag"
+      - "/Library/Frameworks/SFML/doc/SFML.tag"
+      - "/Library/Frameworks/share/doc/SFML/SFML.tag"
+      - "/Library/Frameworks/SFML.tag"
+      - "/usr/local/SFML/doc/SFML.tag"
+      - "/usr/local/share/doc/SFML/SFML.tag"
+      - "/usr/local/SFML.tag"
+      - "/usr/SFML/doc/SFML.tag"
+      - "/usr/share/doc/SFML/SFML.tag"
+      - "/usr/SFML.tag"
+      - "/sw/SFML/doc/SFML.tag"
+      - "/sw/share/doc/SFML/SFML.tag"
+      - "/sw/SFML.tag"
+      - "/opt/local/SFML/doc/SFML.tag"
+      - "/opt/local/share/doc/SFML/SFML.tag"
+      - "/opt/local/SFML.tag"
+      - "/opt/csw/SFML/doc/SFML.tag"
+      - "/opt/csw/share/doc/SFML/SFML.tag"
+      - "/opt/csw/SFML.tag"
+      - "/opt/SFML/doc/SFML.tag"
+      - "/opt/share/doc/SFML/SFML.tag"
+      - "/opt/SFML.tag"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug"
+        - "C:/tools/vcpkg/installed/x64-mingw-dynamic"
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "C:\\tools\\mingw64\\bin"
+        - "C:\\Users\\edlit\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\edlit\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/FractalJulia"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/tools/mingw64"
+        - "C:/Program Files (x86)/FractalJulia"
+      CMAKE_FIND_ROOT_PATH: "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug;C:/tools/vcpkg/installed/x64-mingw-dynamic"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/tools/vcpkg/scripts/buildsystems/vcpkg.cmake:904 (_find_package)"
+      - "CMakeLists.txt:23 (find_package)"
+    name: "SFML"
+    components:
+      -
+        name: "Network"
+        required: true
+        found: false
+      -
+        name: "Graphics"
+        required: true
+        found: false
+      -
+        name: "Window"
+        required: true
+        found: false
+      -
+        name: "Audio"
+        required: true
+        found: false
+      -
+        name: "System"
+        required: true
+        found: false
+    configs:
+      -
+        filename: "SFMLConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "sfml-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "SFML"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/tools/vcpkg/installed/x64-mingw-dynamic/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/tools/vcpkg/installed/x64-mingw-dynamic/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/tools/vcpkg/installed/x64-mingw-dynamic/share/sfml/SFMLConfig.cmake"
+      mode: "config"
+      version: "3.0.2"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug"
+        - "C:/tools/vcpkg/installed/x64-mingw-dynamic"
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "C:\\tools\\mingw64\\bin"
+        - "C:\\Users\\edlit\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\edlit\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/FractalJulia"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/tools/mingw64"
+        - "C:/Program Files (x86)/FractalJulia"
+      CMAKE_FIND_ROOT_PATH: "C:/tools/vcpkg/installed/x64-mingw-dynamic/debug;C:/tools/vcpkg/installed/x64-mingw-dynamic"
+  -
+    kind: "find-v1"
+    backtrace:
       - "C:/tools/vcpkg/scripts/buildsystems/vcpkg.cmake:188 (find_program)"
       - "C:/tools/vcpkg/scripts/buildsystems/vcpkg.cmake:617 (z_vcpkg_set_powershell_path)"
-      - "CMakeLists.txt:21 (add_executable)"
+      - "CMakeLists.txt:27 (add_executable)"
     mode: "program"
     variable: "Z_VCPKG_PWSH_PATH"
     description: "Path to a program."
@@ -5322,7 +6071,7 @@ events:
     backtrace:
       - "C:/tools/vcpkg/scripts/buildsystems/vcpkg.cmake:193 (find_program)"
       - "C:/tools/vcpkg/scripts/buildsystems/vcpkg.cmake:617 (z_vcpkg_set_powershell_path)"
-      - "CMakeLists.txt:21 (add_executable)"
+      - "CMakeLists.txt:27 (add_executable)"
     mode: "program"
     variable: "Z_VCPKG_BUILTIN_POWERSHELL_PATH"
     description: "Path to a program."
