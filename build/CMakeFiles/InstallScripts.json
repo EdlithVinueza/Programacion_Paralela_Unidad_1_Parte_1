@@ -1,0 +1,11 @@
+{
+	"Configs" : 
+	[
+		"Debug"
+	],
+	"InstallScripts" : 
+	[
+		"C:/tools/01-factal-julia/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

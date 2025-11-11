@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/tools/01-factal-julia/build",
+  "command": "C:\\tools\\mingw64\\bin\\g++.exe -DCMAKE_INTDIR=\\\"Debug\\\" -g -o CMakeFiles\\fractal_julia.dir\\Debug\\main.cpp.obj -c C:\\tools\\01-factal-julia\\main.cpp",
+  "file": "C:/tools/01-factal-julia/main.cpp",
+  "output": "C:/tools/01-factal-julia/build/CMakeFiles/fractal_julia.dir/Debug/main.cpp.obj"
+},
+{
+  "directory": "C:/tools/01-factal-julia/build",
+  "command": "C:\\tools\\mingw64\\bin\\g++.exe -DCMAKE_INTDIR=\\\"Release\\\" -O3 -DNDEBUG -o CMakeFiles\\fractal_julia.dir\\Release\\main.cpp.obj -c C:\\tools\\01-factal-julia\\main.cpp",
+  "file": "C:/tools/01-factal-julia/main.cpp",
+  "output": "C:/tools/01-factal-julia/build/CMakeFiles/fractal_julia.dir/Release/main.cpp.obj"
+},
+{
+  "directory": "C:/tools/01-factal-julia/build",
+  "command": "C:\\tools\\mingw64\\bin\\g++.exe -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -O2 -g -DNDEBUG -o CMakeFiles\\fractal_julia.dir\\RelWithDebInfo\\main.cpp.obj -c C:\\tools\\01-factal-julia\\main.cpp",
+  "file": "C:/tools/01-factal-julia/main.cpp",
+  "output": "C:/tools/01-factal-julia/build/CMakeFiles/fractal_julia.dir/RelWithDebInfo/main.cpp.obj"
+}
+]

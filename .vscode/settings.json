@@ -1,0 +1,38 @@
+{
+    // --------------------------------------------
+    // CONFIGURACIÓN DE CMAKE TOOLS EN VISUAL STUDIO CODE
+    // --------------------------------------------
+
+    //  Especifica el "generador" que usará CMake.
+    // Ninja es rápido y moderno, recomendado para VS Code.
+    "cmake.generator": "Ninja Multi-Config",
+
+    //  Carpeta donde se generarán los archivos de compilación.
+    // ${workspaceFolder} es la raíz de tu proyecto.
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+
+    // --------------------------------------------
+    // AJUSTES DE CONFIGURACIÓN DE CMAKE
+    // --------------------------------------------
+    "cmake.configureSettings": {
+        //  Compilador C (gcc.exe)
+        "CMAKE_C_COMPILER": "C:/tools/mingw64/bin/gcc.exe",
+
+        //  Compilador C++ (g++.exe)
+        "CMAKE_CXX_COMPILER": "C:/tools/mingw64/bin/g++.exe",
+
+        //  Programa "ninja" que ejecutará la compilación
+        "CMAKE_MAKE_PROGRAM": "C:/tools/mingw64/bin/ninja.exe",
+
+        //  Archivo de configuración de vcpkg
+        // Permite que CMake detecte automáticamente las librerías instaladas con vcpkg.
+        "CMAKE_TOOLCHAIN_FILE": "C:/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+
+        //  Triplete de vcpkg
+        // Define el tipo de compilación: 64 bits, MinGW, y dinámico (usa DLLs).
+        "VCPKG_TARGET_TRIPLET": "x64-mingw-dynamic"
+    },
+    "files.associations": {
+        "iostream": "cpp"
+    }
+}
