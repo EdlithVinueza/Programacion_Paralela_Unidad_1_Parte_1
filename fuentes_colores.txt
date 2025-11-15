@@ -1,0 +1,13 @@
+para optener paletas de colores:
+https://rampgenerator.com/
+
+suap 
+
+Movimiento de los colores
+(X& OXOOOOOOFF) <<24    ▀_ _ _  desplazamiento pero a la izqueirda 
+(X& OXOOOOFFOO) << 8    _ ▀ _ _
+(X& OXOOFFOOOO) << 8    _ _ ▀ _
+(X& OXFFOOOOOO) >> 24   _ _ _ ▀  desplazamiento pero  a la derecha 
+
+asi invertimos los bits 
+este & a nivel de bits 

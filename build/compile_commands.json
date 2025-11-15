@@ -7,6 +7,12 @@
 },
 {
   "directory": "C:/tools/01-factal-julia/build",
+  "command": "C:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Debug\\\" -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include -g -o CMakeFiles\\fractal_julia.dir\\Debug\\palette.cpp.obj -c C:\\tools\\01-factal-julia\\palette.cpp",
+  "file": "C:/tools/01-factal-julia/palette.cpp",
+  "output": "C:/tools/01-factal-julia/build/CMakeFiles/fractal_julia.dir/Debug/palette.cpp.obj"
+},
+{
+  "directory": "C:/tools/01-factal-julia/build",
   "command": "C:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Debug\\\" -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include -g -o CMakeFiles\\fractal_julia.dir\\Debug\\fractal_serial.cpp.obj -c C:\\tools\\01-factal-julia\\fractal_serial.cpp",
   "file": "C:/tools/01-factal-julia/fractal_serial.cpp",
   "output": "C:/tools/01-factal-julia/build/CMakeFiles/fractal_julia.dir/Debug/fractal_serial.cpp.obj"
@@ -19,6 +25,12 @@
 },
 {
   "directory": "C:/tools/01-factal-julia/build",
+  "command": "C:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Release\\\" -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include -O3 -DNDEBUG -o CMakeFiles\\fractal_julia.dir\\Release\\palette.cpp.obj -c C:\\tools\\01-factal-julia\\palette.cpp",
+  "file": "C:/tools/01-factal-julia/palette.cpp",
+  "output": "C:/tools/01-factal-julia/build/CMakeFiles/fractal_julia.dir/Release/palette.cpp.obj"
+},
+{
+  "directory": "C:/tools/01-factal-julia/build",
   "command": "C:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"Release\\\" -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include -O3 -DNDEBUG -o CMakeFiles\\fractal_julia.dir\\Release\\fractal_serial.cpp.obj -c C:\\tools\\01-factal-julia\\fractal_serial.cpp",
   "file": "C:/tools/01-factal-julia/fractal_serial.cpp",
   "output": "C:/tools/01-factal-julia/build/CMakeFiles/fractal_julia.dir/Release/fractal_serial.cpp.obj"
@@ -28,6 +40,12 @@
   "command": "C:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include -O2 -g -DNDEBUG -o CMakeFiles\\fractal_julia.dir\\RelWithDebInfo\\main.cpp.obj -c C:\\tools\\01-factal-julia\\main.cpp",
   "file": "C:/tools/01-factal-julia/main.cpp",
   "output": "C:/tools/01-factal-julia/build/CMakeFiles/fractal_julia.dir/RelWithDebInfo/main.cpp.obj"
+},
+{
+  "directory": "C:/tools/01-factal-julia/build",
+  "command": "C:\\tools\\mingw64\\bin\\g++.exe -DFMT_SHARED -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include -O2 -g -DNDEBUG -o CMakeFiles\\fractal_julia.dir\\RelWithDebInfo\\palette.cpp.obj -c C:\\tools\\01-factal-julia\\palette.cpp",
+  "file": "C:/tools/01-factal-julia/palette.cpp",
+  "output": "C:/tools/01-factal-julia/build/CMakeFiles/fractal_julia.dir/RelWithDebInfo/palette.cpp.obj"
 },
 {
   "directory": "C:/tools/01-factal-julia/build",

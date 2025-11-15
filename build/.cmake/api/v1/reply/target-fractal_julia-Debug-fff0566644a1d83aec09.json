@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "RelWithDebInfo/fractal_julia.exe"
+			"path" : "Debug/fractal_julia.exe"
 		},
 		{
-			"path" : "RelWithDebInfo/fractal_julia.pdb"
+			"path" : "Debug/fractal_julia.pdb"
 		}
 	],
 	"backtrace" : 2,
@@ -42,7 +42,7 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 34,
+				"line" : 35,
 				"parent" : 0
 			}
 		]
@@ -53,7 +53,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-O2 -g -DNDEBUG"
+					"fragment" : "-g"
 				}
 			],
 			"defines" : 
@@ -75,7 +75,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
 			]
 		}
 	],
@@ -85,37 +86,37 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-O2 -g -DNDEBUG",
+				"fragment" : "-g",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "C:\\tools\\vcpkg\\installed\\x64-mingw-dynamic\\lib\\libfmt.dll.a",
+				"fragment" : "C:\\tools\\vcpkg\\installed\\x64-mingw-dynamic\\debug\\lib\\libfmtd.dll.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "C:\\tools\\vcpkg\\installed\\x64-mingw-dynamic\\lib\\libsfml-network.a",
+				"fragment" : "C:\\tools\\vcpkg\\installed\\x64-mingw-dynamic\\debug\\lib\\libsfml-network-d.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "C:\\tools\\vcpkg\\installed\\x64-mingw-dynamic\\lib\\libsfml-graphics.a",
+				"fragment" : "C:\\tools\\vcpkg\\installed\\x64-mingw-dynamic\\debug\\lib\\libsfml-graphics-d.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "C:\\tools\\vcpkg\\installed\\x64-mingw-dynamic\\lib\\libsfml-window.a",
+				"fragment" : "C:\\tools\\vcpkg\\installed\\x64-mingw-dynamic\\debug\\lib\\libsfml-window-d.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "C:\\tools\\vcpkg\\installed\\x64-mingw-dynamic\\lib\\libsfml-audio.a",
+				"fragment" : "C:\\tools\\vcpkg\\installed\\x64-mingw-dynamic\\debug\\lib\\libsfml-audio-d.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "C:\\tools\\vcpkg\\installed\\x64-mingw-dynamic\\lib\\libsfml-system.a",
+				"fragment" : "C:\\tools\\vcpkg\\installed\\x64-mingw-dynamic\\debug\\lib\\libsfml-system-d.a",
 				"role" : "libraries"
 			},
 			{
@@ -139,7 +140,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
 			]
 		}
 	],
@@ -149,6 +151,12 @@
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
 			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "palette.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

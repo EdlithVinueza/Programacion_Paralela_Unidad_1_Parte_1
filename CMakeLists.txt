@@ -25,6 +25,7 @@ find_package(SFML COMPONENTS Network Graphics Window Audio System CONFIG REQUIRE
 # Crea un ejecutable llamado "fractal_julia"
 # A partir del archivo fuente main.cpp.
 add_executable(fractal_julia main.cpp
+               palette.cpp
                fractal_serial.cpp
 )
 

@@ -30,14 +30,20 @@ std::complex<double> c(-0.7, 0.27015);
 // Buffer de píxeles (RGBA empaquetado en uint32_t). Se inicializa en main.
 uint32_t *pixel_buffer = nullptr;
 
+enum class runtime_type
+{
+    SERIAL_1 = 0,
+    SERIAL_2 = 1
+};
+
+
 int main()
 {
     // - inicializar el buffer de píxeles
     pixel_buffer = new uint32_t[WIDTH * HEIGHT];
 
-    // Llamada que pinta el fractal en pixel_buffer.
-    // Aquí se ve el flujo: main -> julia_serial_1 -> divergente_1
-    julia_serial_1(x_min, y_min, x_max, y_max, WIDTH, HEIGHT, pixel_buffer);
+   // tipo de dibujo
+    runtime_type r_type = runtime_type::SERIAL_1;
 
     // Inicializar SFML para mostrar el resultado
     sf::VideoMode desktop = sf::VideoMode::getDesktopMode();
@@ -63,11 +69,16 @@ int main()
     text.setPosition({10, 10});
     text.setStyle(sf::Text::Bold);
 
-    std::string options = "OPTIONS: [1] Serial 1";
+    std::string options = "OPTIONS: [1] Serial 1 [2] Serial 2";
     sf::Text textOptions(font, options, 24);
     textOptions.setFillColor(sf::Color::White);
     textOptions.setStyle(sf::Text::Bold);
     textOptions.setPosition({10, window.getView().getSize().y - 40});
+
+    // contar FPS
+    int frames = 0;
+    int fps = 0;
+    sf::Clock clockFrames; // nos permite medir el tiempo
 
     while (window.isOpen())
     {
@@ -78,7 +89,60 @@ int main()
         {
             if (event->is<sf::Event::Closed>())
                 window.close();
+
+                 // Añadir mas eventos de teclado
+            // KeyReleased es para cuando suelto la tecla
+            // KeyPressed es para cuando presiono la tecla
+            else if (event->is<sf::Event::KeyReleased>())
+            {
+                auto evt = event->getIf<sf::Event::KeyReleased>();
+
+                switch (evt->scancode)
+                {
+                case sf::Keyboard::Scan::Up:
+                    max_iterations += 10;
+                    break;
+                case sf::Keyboard::Scan::Down:
+                    max_iterations -= 10;
+                    if (max_iterations < 10)
+                        max_iterations = 10;
+                    break;
+                case sf::Keyboard::Scan::Num1:
+                    r_type = runtime_type::SERIAL_1;
+                    break;
+                case sf::Keyboard::Scan::Num2:
+                    r_type = runtime_type::SERIAL_2;
+                    break;
+                }
+            }
         }
+
+         std::string mode = "";
+        if (r_type == runtime_type::SERIAL_1)
+        {
+            mode = "SERIAL 1";
+            julia_serial_1(x_min, y_min, x_max, y_max, WIDTH, HEIGHT, pixel_buffer);
+        }
+        else if (r_type == runtime_type::SERIAL_2)
+        {
+            mode = "SERIAL 2";
+            julia_serial_2(x_min, y_min, x_max, y_max, WIDTH, HEIGHT, pixel_buffer);
+        }
+
+        texture.update((const uint8_t *)pixel_buffer); // actualizar la textura con el nuevo buffer de pixeles
+
+        // calcular FPS
+        frames++;
+        if (clockFrames.getElapsedTime().asSeconds() >= 1.0f) // cada segundo
+        {
+            fps = frames;          // GUARDAMOS los FPS
+            frames = 0;            // REINICIAMOS el contador
+            clockFrames.restart(); // reiniciamos el reloj
+        }
+
+        // ACTUALIZAR EL TITULO
+        auto msg = fmt::format("Julia Set: Iterations {} - FPS: {} - Mode: {}", max_iterations, fps, mode);
+        text.setString(msg);
 
         window.clear();
         {
