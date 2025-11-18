@@ -17,6 +17,9 @@ project(FractalJulia)
 # o en vcpkg. 'CONFIG REQUIRED' indica que debe existir.
 find_package(fmt CONFIG REQUIRED)
 
+# Añade soporte para instrucciones AVX2
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -mavx2")
+
 # Busca e importa la librería 'SFML' con sus componentes.
 # Aquí se incluyen los módulos que el programa necesita:
 # Network, Graphics, Window, Audio y System.
@@ -27,6 +30,7 @@ find_package(SFML COMPONENTS Network Graphics Window Audio System CONFIG REQUIRE
 add_executable(fractal_julia main.cpp
                palette.cpp
                fractal_serial.cpp
+               fractal_simd.cpp
 )
 
 # Enlaza las librerías externas al ejecutable.

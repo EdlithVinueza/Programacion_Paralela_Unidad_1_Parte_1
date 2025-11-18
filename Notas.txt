@@ -1,0 +1,13 @@
+vamos a enpaqutar de 8 en 8 o de 4 en 4
+
+oara calcular el numero imaginario del pixel que vamos a tomar
+seria 
+zo = (i*deltax+xmix, xmax- jdeltay )
+ y ais sicesivamente
+ y vamos enpaquetando, entroces si tomamos 8 empaquetamos 
+ z0,z1...z7 en un solo calculo  --> zn+1 = zi al cuadrado +c
+
+
+ vamos a empaquetar la en complejo y real por separado , para hacer mas facil las operacione
+ entre los dos vectores 
+ 

@@ -4,9 +4,10 @@
 #include <fmt/core.h>
 #include <SFML/Graphics.hpp>
 
-// Proviene de nuestro proyecto: fuente embebida y funciones del fractal
+// Proviene de nuestro proyecto
 #include "arial.ttf.h"
 #include "fractal_serial.h"
+#include "fractal_simd.h"
 
 
 #ifdef _WIN32
@@ -20,7 +21,7 @@ double y_min = -1.0;
 double y_max = 1.0;
 
 // Control de iteraciones y constante c para el conjunto de Julia
-int max_iterations = 100;
+int max_iterations = 10;
 std::complex<double> c(-0.7, 0.27015);
 
 // Tamaño de la imagen (ancho x alto)
@@ -33,7 +34,8 @@ uint32_t *pixel_buffer = nullptr;
 enum class runtime_type
 {
     SERIAL_1 = 0,
-    SERIAL_2 = 1
+    SERIAL_2,
+    SIMD
 };
 
 
@@ -113,6 +115,9 @@ int main()
                 case sf::Keyboard::Scan::Num2:
                     r_type = runtime_type::SERIAL_2;
                     break;
+                case sf::Keyboard::Scan::Num3:
+                    r_type = runtime_type::SIMD;
+                    break;
                 }
             }
         }
@@ -127,6 +132,11 @@ int main()
         {
             mode = "SERIAL 2";
             julia_serial_2(x_min, y_min, x_max, y_max, WIDTH, HEIGHT, pixel_buffer);
+        }
+         else if (r_type == runtime_type::SIMD)
+        {
+            mode = "SIMD";
+            julia_simd(x_min, y_min, x_max, y_max, WIDTH, HEIGHT, pixel_buffer);
         }
 
         texture.update((const uint8_t *)pixel_buffer); // actualizar la textura con el nuevo buffer de pixeles

@@ -47,7 +47,7 @@ build CMakeFiles/fractal_julia.dir/RelWithDebInfo/main.cpp.obj: CXX_COMPILER__fr
   CONFIG = RelWithDebInfo
   DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"RelWithDebInfo\"
   DEP_FILE = CMakeFiles\fractal_julia.dir\RelWithDebInfo\main.cpp.obj.d
-  FLAGS = -O2 -g -DNDEBUG
+  FLAGS = -mavx2 -O2 -g -DNDEBUG
   INCLUDES = -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\fractal_julia.dir\RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles\fractal_julia.dir\RelWithDebInfo
@@ -56,7 +56,7 @@ build CMakeFiles/fractal_julia.dir/RelWithDebInfo/palette.cpp.obj: CXX_COMPILER_
   CONFIG = RelWithDebInfo
   DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"RelWithDebInfo\"
   DEP_FILE = CMakeFiles\fractal_julia.dir\RelWithDebInfo\palette.cpp.obj.d
-  FLAGS = -O2 -g -DNDEBUG
+  FLAGS = -mavx2 -O2 -g -DNDEBUG
   INCLUDES = -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\fractal_julia.dir\RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles\fractal_julia.dir\RelWithDebInfo
@@ -65,7 +65,16 @@ build CMakeFiles/fractal_julia.dir/RelWithDebInfo/fractal_serial.cpp.obj: CXX_CO
   CONFIG = RelWithDebInfo
   DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"RelWithDebInfo\"
   DEP_FILE = CMakeFiles\fractal_julia.dir\RelWithDebInfo\fractal_serial.cpp.obj.d
-  FLAGS = -O2 -g -DNDEBUG
+  FLAGS = -mavx2 -O2 -g -DNDEBUG
+  INCLUDES = -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include
+  OBJECT_DIR = CMakeFiles\fractal_julia.dir\RelWithDebInfo
+  OBJECT_FILE_DIR = CMakeFiles\fractal_julia.dir\RelWithDebInfo
+
+build CMakeFiles/fractal_julia.dir/RelWithDebInfo/fractal_simd.cpp.obj: CXX_COMPILER__fractal_julia_unscanned_RelWithDebInfo C$:/tools/01-factal-julia/fractal_simd.cpp || cmake_object_order_depends_target_fractal_julia_RELWITHDEBINFO
+  CONFIG = RelWithDebInfo
+  DEFINES = -DFMT_SHARED -DCMAKE_INTDIR=\"RelWithDebInfo\"
+  DEP_FILE = CMakeFiles\fractal_julia.dir\RelWithDebInfo\fractal_simd.cpp.obj.d
+  FLAGS = -mavx2 -O2 -g -DNDEBUG
   INCLUDES = -isystem C:/tools/vcpkg/installed/x64-mingw-dynamic/include
   OBJECT_DIR = CMakeFiles\fractal_julia.dir\RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles\fractal_julia.dir\RelWithDebInfo
@@ -78,9 +87,9 @@ build CMakeFiles/fractal_julia.dir/RelWithDebInfo/fractal_serial.cpp.obj: CXX_CO
 #############################################
 # Link the executable RelWithDebInfo\fractal_julia.exe
 
-build RelWithDebInfo/fractal_julia.exe: CXX_EXECUTABLE_LINKER__fractal_julia_RelWithDebInfo CMakeFiles/fractal_julia.dir/RelWithDebInfo/main.cpp.obj CMakeFiles/fractal_julia.dir/RelWithDebInfo/palette.cpp.obj CMakeFiles/fractal_julia.dir/RelWithDebInfo/fractal_serial.cpp.obj | C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libfmt.dll.a C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-network.a C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-graphics.a C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-window.a C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-audio.a C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-system.a
+build RelWithDebInfo/fractal_julia.exe: CXX_EXECUTABLE_LINKER__fractal_julia_RelWithDebInfo CMakeFiles/fractal_julia.dir/RelWithDebInfo/main.cpp.obj CMakeFiles/fractal_julia.dir/RelWithDebInfo/palette.cpp.obj CMakeFiles/fractal_julia.dir/RelWithDebInfo/fractal_serial.cpp.obj CMakeFiles/fractal_julia.dir/RelWithDebInfo/fractal_simd.cpp.obj | C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libfmt.dll.a C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-network.a C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-graphics.a C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-window.a C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-audio.a C$:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-system.a
   CONFIG = RelWithDebInfo
-  FLAGS = -O2 -g -DNDEBUG
+  FLAGS = -mavx2 -O2 -g -DNDEBUG
   LINK_LIBRARIES = C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libfmt.dll.a  C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-network.a  C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-graphics.a  C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-window.a  C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-audio.a  C:/tools/vcpkg/installed/x64-mingw-dynamic/lib/libsfml-system.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\fractal_julia.dir\RelWithDebInfo
   POST_BUILD = C:\Windows\system32\cmd.exe /C "cd /D C:\tools\01-factal-julia\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/tools/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/tools/01-factal-julia/build/RelWithDebInfo/fractal_julia.exe -installedDir C:/tools/vcpkg/installed/x64-mingw-dynamic/bin -OutVariable out"
